@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  year: 1
+  golfer_id: 1
+  executive_position_id: 1
+  comments: MyText
+
+two:
+  year: 1
+  golfer_id: 1
+  executive_position_id: 1
+  comments: MyText

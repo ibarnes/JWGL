@@ -1,0 +1,26 @@
+<h1>Listing events_by_years</h1>
+
+<table>
+  <tr>
+    <th>Year</th>
+    <th>Date of play</th>
+    <th>Event</th>
+    <th>Comment</th>
+  </tr>
+
+<% @events_by_years.each do |events_by_year| %>
+  <tr>
+    <td><%=h events_by_year.year %></td>
+    <td><%=h events_by_year.date_of_play %></td>
+    <td><%=h events_by_year.event_id %></td>
+    <td><%=h events_by_year.comment %></td>
+    <td><%= link_to 'Show', events_by_year %></td>
+    <td><%= link_to 'Edit', edit_events_by_year_path(events_by_year) %></td>
+    <td><%= link_to 'Destroy', events_by_year, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New events_by_year', new_events_by_year_path %>

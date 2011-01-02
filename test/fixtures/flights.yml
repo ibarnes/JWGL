@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  flight: MyString
+  high_handicap: 1
+  low_handicap: 1
+
+two:
+  flight: MyString
+  high_handicap: 1
+  low_handicap: 1

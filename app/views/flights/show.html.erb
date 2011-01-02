@@ -1,0 +1,21 @@
+<%content_for :left do%>
+<p>
+  <b>Flight:</b>
+  <%=h @flight.flight %>
+</p>
+
+<p>
+  <b>High handicap:</b>
+  <%=h @flight.high_handicap %>
+</p>
+
+<p>
+  <b>Low handicap:</b>
+  <%=h @flight.low_handicap %>
+</p>
+
+
+<%= link_to 'Edit', edit_flight_path(@flight) %> |
+<%= link_to 'Back', flights_path %>
+
+<%end%>

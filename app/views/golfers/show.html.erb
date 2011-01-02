@@ -1,0 +1,76 @@
+<%content_for :left do %>
+<p>
+  <b>Firstname:</b>
+  <%=h @golfer.firstname %>
+</p>
+
+<p>
+  <b>Lastname:</b>
+  <%=h @golfer.lastname %>
+</p>
+
+<p>
+  <b>Street address:</b>
+  <%=h @golfer.street_address %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%=h @golfer.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%=h @golfer.state %>
+</p>
+
+<p>
+  <b>Zip:</b>
+  <%=h @golfer.zip %>
+</p>
+
+<p>
+  <b>Birthdate:</b>
+  <%=h @golfer.birthdate %>
+</p>
+
+<p>
+  <b>Home phone:</b>
+  <%=h @golfer.home_phone %>
+</p>
+
+<p>
+  <b>Cell:</b>
+  <%=h @golfer.cell %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @golfer.email %>
+</p>
+
+<p>
+  <b>Year joined:</b>
+  <%=h @golfer.year_joined %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%=h @golfer.status %>
+</p>
+
+<p>
+  <b>Membership status:</b>
+  <%=h @golfer.membership_status %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%=h @golfer.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_golfer_path(@golfer) %> |
+<%= link_to 'Back', golfers_path %>
+
+<%end%>

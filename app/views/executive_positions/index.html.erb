@@ -1,0 +1,30 @@
+<%content_for :left do%>
+<h1>Listing executive_positions</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Username</th>
+    <th>Password</th>
+    <th>Active</th>
+    <th>Comments</th>
+  </tr>
+
+<% @executive_positions.each do |executive_position| %>
+  <tr>
+    <td><%=h executive_position.title %></td>
+    <td><%=h executive_position.username %></td>
+    <td><%=h executive_position.password %></td>
+    <td><%=h executive_position.active %></td>
+    <td><%=h executive_position.comments %></td>
+    <td><%= link_to 'Show', executive_position %></td>
+    <td><%= link_to 'Edit', edit_executive_position_path(executive_position) %></td>
+    <td><%= link_to 'Destroy', executive_position, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New executive_position', new_executive_position_path %>
+<%end%>

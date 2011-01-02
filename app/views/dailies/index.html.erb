@@ -1,0 +1,40 @@
+<%content_for :left do%>
+<h1>Dailies</h1>
+
+<table>
+  <tr>
+    <th>Golfer</th>
+    <th>Year</th>
+    <th>Date of play</th>
+    <th>Group</th>
+    <th>Gross</th>
+    <th>Handicap</th>
+    <th>Net</th>
+    <th>Total putts</th>
+    <th>Flight</th>
+    <th>Points</th>
+  </tr>
+
+<% @dailies.each do |daily| %>
+  <tr>
+    <td><%=h daily.golfer_id %></td>
+    <td><%=h daily.year %></td>
+    <td><%=h daily.date_of_play %></td>
+    <td><%=h daily.group %></td>
+    
+    <td><%=h daily.gross %></td>
+    <td><%=h daily.handicap %></td>
+    <td><%=h daily.net %></td>
+    <td><%=h daily.total_putts %></td>
+    <td><%=h daily.flight %></td>
+    <td><%=h daily.points %></td>
+    <td><%= link_to 'Show', daily %> <%= link_to 'Edit', edit_daily_path(daily) %> <%= link_to 'Destroy', daily, :confirm => 'Are you sure?', :method => :delete %></td>
+   
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New daily', new_daily_path %>
+<%end%>

@@ -1,0 +1,30 @@
+<%content_for :left do%>
+<p>
+  <b>Title:</b>
+  <%=h @executive_position.title %>
+</p>
+
+<p>
+  <b>Username:</b>
+  <%=h @executive_position.username %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%=h @executive_position.password %>
+</p>
+
+<p>
+  <b>Active:</b>
+  <%=h @executive_position.active %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%=h @executive_position.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_executive_position_path(@executive_position) %> |
+<%= link_to 'Back', executive_positions_path %>
+<%end%>

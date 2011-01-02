@@ -1,0 +1,28 @@
+<h1>Editing executive_committee</h1>
+
+<% form_for(@executive_committee) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :year %><br />
+    <%= f.text_field :year %>
+  </p>
+  <p>
+    <%= f.label :golfer_id %><br />
+    <%= f.text_field :golfer_id %>
+  </p>
+  <p>
+    <%= f.label :executive_position_id %><br />
+    <%= f.text_field :executive_position_id %>
+  </p>
+  <p>
+    <%= f.label :comments %><br />
+    <%= f.text_area :comments %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @executive_committee %> |
+<%= link_to 'Back', executive_committees_path %>

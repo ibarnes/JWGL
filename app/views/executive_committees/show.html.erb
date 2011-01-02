@@ -1,0 +1,23 @@
+<p>
+  <b>Year:</b>
+  <%=h @executive_committee.year %>
+</p>
+
+<p>
+  <b>Golfer:</b>
+  <%=h @executive_committee.golfer_id %>
+</p>
+
+<p>
+  <b>Executive position:</b>
+  <%=h @executive_committee.executive_position_id %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%=h @executive_committee.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_executive_committee_path(@executive_committee) %> |
+<%= link_to 'Back', executive_committees_path %>

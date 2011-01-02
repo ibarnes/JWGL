@@ -1,0 +1,46 @@
+<%content_for :left do%>
+<p>
+  <b>Golfer:</b>
+  <%=h @yearly.golfer_id %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%=h @yearly.year %>
+</p>
+
+<p>
+  <b>Dues amount paid:</b>
+  <%=h @yearly.dues_amount_paid %>
+</p>
+
+<p>
+  <b>Check num:</b>
+  <%=h @yearly.check_num %>
+</p>
+
+<p>
+  <b>Luncheon amt paid:</b>
+  <%=h @yearly.luncheon_amt_paid %>
+</p>
+
+<p>
+  <b>Luncheon meal:</b>
+  <%=h @yearly.luncheon_meal %>
+</p>
+
+<p>
+  <b>Luncheon check num:</b>
+  <%=h @yearly.luncheon_check_num %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%=h @yearly.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_yearly_path(@yearly) %> |
+<%= link_to 'Back', yearlies_path %>
+
+<%end%>

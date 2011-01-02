@@ -1,0 +1,36 @@
+<%content_for :left do%>
+<h1>Golfers</h1>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th width="15%">Year joined</th>
+    <th>Status</th>
+    <th width="30%">Membership status</th>
+    <th width="30%">Actions</th>
+    
+  </tr>
+
+<% @golfers.each do |golfer| %>
+  <tr>
+    <td><%=h golfer.firstname %></td>
+    <td><%=h golfer.lastname %></td>
+    
+    <td><%=h golfer.year_joined %></td>
+    <td><%=h golfer.status %></td>
+    <td><%=h golfer.membership_status %></td>
+   
+    <td><%= link_to 'View', golfer %> <%= link_to 'Edit', edit_golfer_path(golfer) %>
+<%= link_to 'Delete', golfer, :confirm => 'Are you sure?', :method => :delete %></td>
+
+   
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New golfer', new_golfer_path %>
+
+<%end%>

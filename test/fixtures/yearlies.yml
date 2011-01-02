@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  golfer_id: 1
+  year: 1
+  dues_amount_paid: 1.5
+  check_num: 1.5
+  luncheon_amt_paid: 1.5
+  luncheon_meal: MyString
+  luncheon_check_num: 1
+  comments: MyText
+
+two:
+  golfer_id: 1
+  year: 1
+  dues_amount_paid: 1.5
+  check_num: 1.5
+  luncheon_amt_paid: 1.5
+  luncheon_meal: MyString
+  luncheon_check_num: 1
+  comments: MyText

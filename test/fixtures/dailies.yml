@@ -1,0 +1,61 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  golfer_id: 1
+  year: 1
+  date_of_play: 2010-12-27
+  group: MyString
+  hole1: 1
+  hole2: 1
+  hole3: 1
+  hole4: 1
+  hole5: 1
+  hole6: 1
+  hole7: 1
+  hole8: 1
+  hole9: 1
+  putts1: 1
+  putts2: 1
+  putts3: 1
+  putts4: 1
+  putts5: 1
+  putts6: 1
+  putts7: 1
+  putts8: 1
+  putts9: 1
+  gross: 1
+  handicap: 1
+  net: 1
+  total_putts: 1
+  flight: 1
+  points: 1
+
+two:
+  golfer_id: 1
+  year: 1
+  date_of_play: 2010-12-27
+  group: MyString
+  hole1: 1
+  hole2: 1
+  hole3: 1
+  hole4: 1
+  hole5: 1
+  hole6: 1
+  hole7: 1
+  hole8: 1
+  hole9: 1
+  putts1: 1
+  putts2: 1
+  putts3: 1
+  putts4: 1
+  putts5: 1
+  putts6: 1
+  putts7: 1
+  putts8: 1
+  putts9: 1
+  gross: 1
+  handicap: 1
+  net: 1
+  total_putts: 1
+  flight: 1
+  points: 1

@@ -1,0 +1,46 @@
+<%content_for :left do%>
+<h1>Editing yearly</h1>
+
+<% form_for(@yearly) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :golfer_id %><br />
+    <%= f.text_field :golfer_id %>
+  </p>
+  <p>
+    <%= f.label :year %><br />
+    <%= f.text_field :year %>
+  </p>
+  <p>
+    <%= f.label :dues_amount_paid %><br />
+    <%= f.text_field :dues_amount_paid %>
+  </p>
+  <p>
+    <%= f.label :check_num %><br />
+    <%= f.text_field :check_num %>
+  </p>
+  <p>
+    <%= f.label :luncheon_amt_paid %><br />
+    <%= f.text_field :luncheon_amt_paid %>
+  </p>
+  <p>
+    <%= f.label :luncheon_meal %><br />
+    <%= f.text_field :luncheon_meal %>
+  </p>
+  <p>
+    <%= f.label :luncheon_check_num %><br />
+    <%= f.text_field :luncheon_check_num %>
+  </p>
+  <p>
+    <%= f.label :comments %><br />
+    <%= f.text_area :comments %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @yearly %> |
+<%= link_to 'Back', yearlies_path %>
+<%end%>

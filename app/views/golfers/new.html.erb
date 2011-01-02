@@ -1,0 +1,71 @@
+<%content_for :left do %>
+
+<h1>New golfer</h1>
+
+<% form_for(@golfer) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :firstname %><br />
+    <%= f.text_field :firstname %>
+  </p>
+  <p>
+    <%= f.label :lastname %><br />
+    <%= f.text_field :lastname %>
+  </p>
+  <p>
+    <%= f.label :street_address %><br />
+    <%= f.text_field :street_address %>
+  </p>
+  <p>
+    <%= f.label :city %><br />
+    <%= f.text_field :city %>
+  </p>
+  <p>
+    <%= f.label :state %><br />
+   <%= select_tag(:state, options_for_select([['VA','VA'],['MD','MD'],['DC','DC'],['FL','FL']])) %>
+  </p>
+  <p>
+    <%= f.label :zip %><br />
+    <%= f.text_field :zip %>
+  </p>
+  <p>
+    <%= f.label :birthdate %><br />
+    <%= f.date_select :birthdate, :discard_year=> true %>
+  </p>
+  <p>
+    <%= f.label :home_phone %><br />
+    <%= f.text_field :home_phone %>
+  </p>
+  <p>
+    <%= f.label :cell %><br />
+    <%= f.text_field :cell %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :year_joined %><br />
+    <%= f.text_field :year_joined %>
+  </p>
+  <p>
+     Active?<br />
+    <%= f.check_box :status %>
+  </p>
+  <p>
+    <%= f.label :membership_status %><br />
+    <%= select_tag(:membership_status , options_for_select([['Regular','Regular'],['Associate','Associate'],['Charter','Charter'],['Wait List','Wait List'], ['Less than 7','Less than 7']])) %>
+
+  </p>
+  <p>
+    <%= f.label :comments %><br />
+    <%= f.text_area :comments %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', golfers_path %>
+  <%end%>

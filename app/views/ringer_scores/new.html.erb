@@ -1,0 +1,87 @@
+<h1>New ringer_score</h1>
+
+<% form_for(@ringer_score) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :golfer_id %><br />
+    <%= f.text_field :golfer_id %>
+  </p>
+  <p>
+    <%= f.label :year %><br />
+    <%= f.text_field :year %>
+  </p>
+  <p>
+    <%= f.label :date_of_play %><br />
+    <%= f.date_select :date_of_play %>
+  </p>
+  <p>
+    <%= f.label :group %><br />
+    <%= f.text_field :group %>
+  </p>
+  <p>
+    <%= f.label :hole1 %><br />
+    <%= f.text_field :hole1 %>
+  </p>
+  <p>
+    <%= f.label :hole2 %><br />
+    <%= f.text_field :hole2 %>
+  </p>
+  <p>
+    <%= f.label :hole3 %><br />
+    <%= f.text_field :hole3 %>
+  </p>
+  <p>
+    <%= f.label :hole4 %><br />
+    <%= f.text_field :hole4 %>
+  </p>
+  <p>
+    <%= f.label :hole5 %><br />
+    <%= f.text_field :hole5 %>
+  </p>
+  <p>
+    <%= f.label :hole6 %><br />
+    <%= f.text_field :hole6 %>
+  </p>
+  <p>
+    <%= f.label :hole7 %><br />
+    <%= f.text_field :hole7 %>
+  </p>
+  <p>
+    <%= f.label :hole8 %><br />
+    <%= f.text_field :hole8 %>
+  </p>
+  <p>
+    <%= f.label :hole9 %><br />
+    <%= f.text_field :hole9 %>
+  </p>
+  <p>
+    <%= f.label :gross %><br />
+    <%= f.text_field :gross %>
+  </p>
+  <p>
+    <%= f.label :rounds %><br />
+    <%= f.text_field :rounds %>
+  </p>
+  <p>
+    <%= f.label :handicap %><br />
+    <%= f.text_field :handicap %>
+  </p>
+  <p>
+    <%= f.label :net %><br />
+    <%= f.text_field :net %>
+  </p>
+  <p>
+    <%= f.label :flight %><br />
+    <%= f.text_field :flight %>
+  </p>
+  <p>
+    <%= f.label :points %><br />
+    <%= f.text_field :points %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', ringer_scores_path %>

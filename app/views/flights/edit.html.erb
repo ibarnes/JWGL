@@ -1,0 +1,26 @@
+<%content_for :left do%>
+<h1>Editing flight</h1>
+
+<% form_for(@flight) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :flight %><br />
+    <%= f.text_field :flight %>
+  </p>
+  <p>
+    <%= f.label :high_handicap %><br />
+    <%= f.text_field :high_handicap %>
+  </p>
+  <p>
+    <%= f.label :low_handicap %><br />
+    <%= f.text_field :low_handicap %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @flight %> |
+<%= link_to 'Back', flights_path %>
+<%end%>

@@ -1,0 +1,23 @@
+<p>
+  <b>Year:</b>
+  <%=h @events_by_year.year %>
+</p>
+
+<p>
+  <b>Date of play:</b>
+  <%=h @events_by_year.date_of_play %>
+</p>
+
+<p>
+  <b>Event:</b>
+  <%=h @events_by_year.event_id %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%=h @events_by_year.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_events_by_year_path(@events_by_year) %> |
+<%= link_to 'Back', events_by_years_path %>
