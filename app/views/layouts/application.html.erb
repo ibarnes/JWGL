@@ -10,8 +10,8 @@
 <body>
 <div id="container" >
   <div id="header">
-   <div id="logo"><h1><%=link_to "JWGL Golf League","/"%></h1></div>
-   <div id="controlpanel"><%=link_to "Enter Daily",:controller=>"dailies", :action=>"new"%> | <%=link_to "Admin", golfers_path%> </div>
+   <div id="logo"><h1><%=link_to image_tag("logo.png",:border=>0),"/"%></h1></div>
+   <div id="controlpanel"><a href="#">Login</a> | <%=link_to "Admin", golfers_path%> </div>
    <div id="nav">
      <ul>
        <li><%=link_to "Home", "/"%></li>
@@ -26,7 +26,7 @@
   </div>
   <div id="main">
    <div class="strip"></div>
-   <% if params[:controller] == 'home'%> <%= image_tag "golf.jpg" %><%end%>
+   <% if params[:controller] == 'home'%> <% image_tag "golf.jpg" %><%end%>
    
    <div id="left">
       <%= yield :left %>
@@ -35,9 +35,10 @@
 
 <% if params[:controller] != 'home'
 if params[:controller] != 'dailies'
-%><br>
-  <div align="center">
-    <%=link_to "Manage Golfers", golfers_path%><br>
+%>
+  <div align="left" id="adminpanel">
+    <h2 style="color:#fff;">Admin Panel</h2>
+     <%=link_to "Manage Golfers", golfers_path%><br>
     <%=link_to "Manage Yearlies", yearlies_path%><br>
     <%=link_to "Manage Flights", flights_path%><br>
      <%=link_to "Manage Executive Positions", executive_positions_path%><br>
@@ -50,7 +51,7 @@ if params[:controller] != 'dailies'
   </div>
   <div id="footer">
     
-    <div style="padding:10px;text-align:center;">JWGL Womens Golf</div>
+    <div style="padding:10px;text-align:center;">Golf is a game of coordination, rhythm and grace; women have these to a high degree.<br> JWGL Womens Golf</div>
   </div>
  </div>
 

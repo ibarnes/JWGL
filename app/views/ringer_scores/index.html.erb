@@ -1,3 +1,4 @@
+<%content_for :left do %>
 <h1>Listing ringer_scores</h1>
 
 <table>
@@ -6,15 +7,7 @@
     <th>Year</th>
     <th>Date of play</th>
     <th>Group</th>
-    <th>Hole1</th>
-    <th>Hole2</th>
-    <th>Hole3</th>
-    <th>Hole4</th>
-    <th>Hole5</th>
-    <th>Hole6</th>
-    <th>Hole7</th>
-    <th>Hole8</th>
-    <th>Hole9</th>
+   
     <th>Gross</th>
     <th>Rounds</th>
     <th>Handicap</th>
@@ -29,15 +22,7 @@
     <td><%=h ringer_score.year %></td>
     <td><%=h ringer_score.date_of_play %></td>
     <td><%=h ringer_score.group %></td>
-    <td><%=h ringer_score.hole1 %></td>
-    <td><%=h ringer_score.hole2 %></td>
-    <td><%=h ringer_score.hole3 %></td>
-    <td><%=h ringer_score.hole4 %></td>
-    <td><%=h ringer_score.hole5 %></td>
-    <td><%=h ringer_score.hole6 %></td>
-    <td><%=h ringer_score.hole7 %></td>
-    <td><%=h ringer_score.hole8 %></td>
-    <td><%=h ringer_score.hole9 %></td>
+   
     <td><%=h ringer_score.gross %></td>
     <td><%=h ringer_score.rounds %></td>
     <td><%=h ringer_score.handicap %></td>
@@ -54,3 +39,4 @@
 <br />
 
 <%= link_to 'New ringer_score', new_ringer_score_path %>
+<%end%>

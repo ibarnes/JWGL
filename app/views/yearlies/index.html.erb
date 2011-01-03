@@ -5,24 +5,24 @@
   <tr>
     <th>Golfer</th>
     <th>Year</th>
-    <th>Dues amount paid</th>
-    <th>Check num</th>
-    <th>Luncheon amt paid</th>
-    <th>Luncheon meal</th>
-    <th>Luncheon check num</th>
-    <th>Comments</th>
+    <th>Dues Amount Paid</th>
+    <th>Check #</th>
+    <th>Amt Paid</th>
+    <th>Meal</th>
+    <th>Lunch Check #</th>
+   
   </tr>
 
 <% @yearlies.each do |yearly| %>
   <tr>
-    <td><%=h yearly.golfer_id %></td>
+    <td><%=h Golfer.find(yearly.golfer_id).LastName %></td>
     <td><%=h yearly.year %></td>
     <td><%=h yearly.dues_amount_paid %></td>
     <td><%=h yearly.check_num %></td>
     <td><%=h yearly.luncheon_amt_paid %></td>
     <td><%=h yearly.luncheon_meal %></td>
     <td><%=h yearly.luncheon_check_num %></td>
-    <td><%=h yearly.comments %></td>
+    
     <td><%= link_to 'Show', yearly %></td>
     <td><%= link_to 'Edit', edit_yearly_path(yearly) %></td>
     <td><%= link_to 'Destroy', yearly, :confirm => 'Are you sure?', :method => :delete %></td>
