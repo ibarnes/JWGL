@@ -6,6 +6,8 @@ body
     font-size: 12px;
 }
 
+
+
 a{
     color: #03A763;
 }
@@ -196,7 +198,10 @@ td {
 
 }
 
-
+.score{
+    padding:2px;
+    width:50px;
+}
 
 table {
     width:100%;

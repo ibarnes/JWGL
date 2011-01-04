@@ -25,7 +25,7 @@ class DailiesController < ApplicationController
   # GET /dailies/new.xml
   def new
     @daily = Daily.new
- 
+
     respond_to do |format|
       format.html # new.html.erb
       format.xml  { render :xml => @daily }
@@ -41,7 +41,8 @@ class DailiesController < ApplicationController
   # POST /dailies.xml
   def create
     @daily = Daily.new(params[:daily])
-
+    @daily.date_of_play = Date.current
+    
     respond_to do |format|
       if @daily.save
         flash[:notice] = 'Daily was successfully created.'

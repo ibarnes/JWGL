@@ -8855,3 +8855,549 @@ Rendering template within layouts/application
 Rendering dailies/new
   [4;35;1mGolfer Load (0.6ms)[0m   [0mSELECT * FROM "golfers" [0m
 Completed in 66ms (View: 53, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-01-02 23:55:58) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2011-01-02 23:56:00) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2011-01-02 23:56:09) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing GolfersController#index (for 127.0.0.1 at 2011-01-02 23:56:13) [GET]
+  [4;36;1mGolfer Load (2.3ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Rendering template within layouts/application
+Rendering golfers/index
+Completed in 27ms (View: 16, DB: 2) | 200 OK [http://localhost/golfers]
+
+
+Processing GolfersController#index (for 127.0.0.1 at 2011-01-02 23:56:13) [GET]
+  [4;35;1mGolfer Load (1.3ms)[0m   [0mSELECT * FROM "golfers" [0m
+Rendering template within layouts/application
+Rendering golfers/index
+Completed in 25ms (View: 14, DB: 1) | 200 OK [http://localhost/golfers]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2011-01-03 16:41:43) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 84ms (View: 28, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-01-03 16:41:50) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2011-01-03 16:41:51) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing GolfersController#index (for 127.0.0.1 at 2011-01-03 16:41:55) [GET]
+  [4;36;1mGolfer Load (2.4ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Rendering template within layouts/application
+Rendering golfers/index
+Completed in 32ms (View: 19, DB: 2) | 200 OK [http://localhost/golfers]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-01-03 16:41:59) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GolfersController#index (for 127.0.0.1 at 2011-01-03 16:42:04) [GET]
+  [4;35;1mGolfer Load (1.3ms)[0m   [0mSELECT * FROM "golfers" [0m
+Rendering template within layouts/application
+Rendering golfers/index
+Completed in 114ms (View: 103, DB: 1) | 200 OK [http://localhost/golfers]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-01-03 16:42:07) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2011-01-03 16:42:09) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-01-03 16:42:11) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-01-03 18:05:31) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 104ms (View: 45, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2011-01-03 18:05:31) [GET]
+Rendering template within layouts/application
+Rendering home/about
+Completed in 13ms (View: 6, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing GolfersController#index (for 127.0.0.1 at 2011-01-03 18:05:34) [GET]
+  [4;36;1mGolfer Load (2.5ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Rendering template within layouts/application
+Rendering golfers/index
+Completed in 46ms (View: 30, DB: 2) | 200 OK [http://localhost/golfers]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-01-03 18:06:48) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-01-03 18:06:48) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-03 18:06:51) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (2.8ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 81ms (View: 64, DB: 3) | 200 OK [http://localhost/dailies/new]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-01-04 16:36:47) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 24ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GolfersController#index (for 127.0.0.1 at 2011-01-04 16:36:49) [GET]
+  [4;36;1mGolfer Load (2.3ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Rendering template within layouts/application
+Rendering golfers/index
+Completed in 43ms (View: 30, DB: 2) | 200 OK [http://localhost/golfers]
+
+
+Processing GolfersController#edit (for 127.0.0.1 at 2011-01-04 16:55:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mGolfer Load (0.6ms)[0m   [0mSELECT * FROM "golfers" WHERE ("golfers"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering golfers/edit
+Completed in 56ms (View: 41, DB: 1) | 200 OK [http://localhost/golfers/1/edit]
+
+
+Processing GolfersController#show (for 127.0.0.1 at 2011-01-04 16:58:12) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mGolfer Load (0.6ms)[0m   [0;1mSELECT * FROM "golfers" WHERE ("golfers"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering golfers/show
+Completed in 22ms (View: 8, DB: 1) | 200 OK [http://localhost/golfers/1]
+
+
+Processing GolfersController#index (for 127.0.0.1 at 2011-01-04 16:58:15) [GET]
+  [4;35;1mGolfer Load (1.3ms)[0m   [0mSELECT * FROM "golfers" [0m
+Rendering template within layouts/application
+Rendering golfers/index
+Completed in 26ms (View: 15, DB: 1) | 200 OK [http://localhost/golfers]
+
+
+Processing GolfersController#index (for 127.0.0.1 at 2011-01-04 17:03:50) [GET]
+  [4;36;1mGolfer Load (1.4ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Rendering template within layouts/application
+Rendering golfers/index
+Completed in 27ms (View: 15, DB: 1) | 200 OK [http://localhost/golfers]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2011-01-04 17:03:52) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:03:54) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.6ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 97ms (View: 84, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:03:55) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 73ms (View: 60, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:07:43) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 79ms (View: 66, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:10:33) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 87ms (View: 73, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:10:51) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 80ms (View: 67, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:11:19) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 179ms (View: 66, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:11:56) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 78ms (View: 66, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:12:19) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 179ms (View: 161, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:12:26) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 79ms (View: 66, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:24:30) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 191ms (View: 178, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:24:44) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 143ms (View: 113, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:25:52) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 164ms (View: 150, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:26:30) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.8ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 78ms (View: 64, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:26:41) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 271ms (View: 258, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:26:42) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.6ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 65ms (View: 53, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:27:09) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 227ms (View: 213, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:28:12) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 81ms (View: 65, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:28:58) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 67ms (View: 54, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:29:46) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 79ms (View: 66, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:30:02) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.6ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 67ms (View: 54, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:30:04) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 68ms (View: 52, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:30:41) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 83ms (View: 70, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:30:56) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 168ms (View: 155, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:30:57) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.6ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 70ms (View: 57, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:31:01) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 169ms (View: 156, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:31:03) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 69ms (View: 56, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:31:07) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.6ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 71ms (View: 59, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:31:12) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.6ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 66ms (View: 54, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:31:13) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.6ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 90ms (View: 77, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:32:16) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 177ms (View: 67, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:32:42) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 96ms (View: 70, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:32:49) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 216ms (View: 73, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:33:12) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 99ms (View: 84, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:33:20) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 177ms (View: 164, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:33:21) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (1.3ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 68ms (View: 53, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:34:06) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 177ms (View: 164, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:34:13) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.6ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 77ms (View: 65, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:34:15) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 162ms (View: 149, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:35:05) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.8ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 136ms (View: 119, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:35:25) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 327ms (View: 312, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:35:26) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 69ms (View: 57, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:36:16) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 74ms (View: 59, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:36:17) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (1.5ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 84ms (View: 68, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:36:32) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 73ms (View: 61, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:36:36) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 386ms (View: 160, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:36:37) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.9ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 87ms (View: 72, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:36:49) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 176ms (View: 164, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:36:50) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 59ms (View: 47, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:36:58) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (1.6ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 295ms (View: 281, DB: 2) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:39:54) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 65ms (View: 51, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:41:11) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;35;1mGolfer Load (0.7ms)[0m   [0mSELECT * FROM "golfers" [0m
+Completed in 63ms (View: 50, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing DailiesController#new (for 127.0.0.1 at 2011-01-04 17:41:45) [GET]
+Rendering template within layouts/application
+Rendering dailies/new
+  [4;36;1mGolfer Load (0.7ms)[0m   [0;1mSELECT * FROM "golfers" [0m
+Completed in 66ms (View: 52, DB: 1) | 200 OK [http://localhost/dailies/new]
+
+
+Processing GolfersController#index (for 127.0.0.1 at 2011-01-04 17:48:59) [GET]
+  [4;35;1mGolfer Load (1.4ms)[0m   [0mSELECT * FROM "golfers" [0m
+Rendering template within layouts/application
+Rendering golfers/index
+Completed in 41ms (View: 28, DB: 1) | 200 OK [http://localhost/golfers]

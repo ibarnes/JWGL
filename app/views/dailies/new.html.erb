@@ -4,94 +4,71 @@
 <% form_for(@daily) do |f| %>
   <%= f.error_messages %>
 
+
+
   <p>
     <%= f.label :golfer_id %><br />
    <%= collection_select(:daily, :golfer_id, Golfer.all, :id, :lastname ) %>
-  </p>
-  <p>
-    <%= f.label :year %><br />
-    <%= f.text_field :year %>
-  </p>
-  <p>
-    <%= f.label :date_of_play %><br />
-    <%= f.date_select :date_of_play %>
   </p>
   <p>
     <%= f.label :group %><br />
     <%= f.text_field :group %>
   </p>
   <p>
-    <%= f.label :hole1 %><br />
-    <%= f.text_field :hole1 %>
+    <%= f.label :year %><br />
+    <%= f.text_field :year %>
   </p>
-  <p>
-    <%= f.label :hole2 %><br />
-    <%= f.text_field :hole2 %>
-  </p>
-  <p>
-    <%= f.label :hole3 %><br />
-    <%= f.text_field :hole3 %>
-  </p>
-  <p>
-    <%= f.label :hole4 %><br />
-    <%= f.text_field :hole4 %>
-  </p>
-  <p>
-    <%= f.label :hole5 %><br />
-    <%= f.text_field :hole5 %>
-  </p>
-  <p>
-    <%= f.label :hole6 %><br />
-    <%= f.text_field :hole6 %>
-  </p>
-  <p>
-    <%= f.label :hole7 %><br />
-    <%= f.text_field :hole7 %>
-  </p>
-  <p>
-    <%= f.label :hole8 %><br />
-    <%= f.text_field :hole8 %>
-  </p>
-  <p>
-    <%= f.label :hole9 %><br />
-    <%= f.text_field :hole9 %>
-  </p>
-  <p>
-    <%= f.label :putts1 %><br />
-    <%= f.text_field :putts1 %>
-  </p>
-  <p>
-    <%= f.label :putts2 %><br />
-    <%= f.text_field :putts2 %>
-  </p>
-  <p>
-    <%= f.label :putts3 %><br />
-    <%= f.text_field :putts3 %>
-  </p>
-  <p>
-    <%= f.label :putts4 %><br />
-    <%= f.text_field :putts4 %>
-  </p>
-  <p>
-    <%= f.label :putts5 %><br />
-    <%= f.text_field :putts5 %>
-  </p>
-  <p>
-    <%= f.label :putts6 %><br />
-    <%= f.text_field :putts6 %>
-  </p>
-  <p>
-    <%= f.label :putts7 %><br />
-    <%= f.text_field :putts7 %>
-  </p>
-  <p>
-    <%= f.label :putts8 %><br />
-    <%= f.text_field :putts8 %>
-  </p>
-  <p>
-    <%= f.label :putts9 %><br />
-    <%= f.text_field :putts9 %>
-  </p>
+ 
+    
+   
+  
+
+  <table>
+    <tr>
+      <th>Hole #</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+      <th>Total</th>
+    </tr>
+    <tr>
+      <td style="width:30px;">Putts</td>
+      <td class="score"><%= f.text_field :hole1, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :hole2, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :hole3, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :hole4, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :hole5, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :hole6, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :hole7, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :hole8, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :hole9, :size=>'1' %></td>
+      <td class="score" align="center">20</td>
+    </tr>
+    <tr>
+      <td style="width:30px;">Strokes</td>
+      <td class="score"><%= f.text_field :putts1, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :putts2, :size=>'1' %></td>
+      <td  class="score"><%= f.text_field :putts3, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :putts4, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :putts5, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :putts6, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :putts7, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :putts8, :size=>'1' %></td>
+      <td class="score"><%= f.text_field :putts9, :size=>'1' %></td>
+      <td class="score" align="center">20</td>
+    </tr>
+
+  </table>
+
+  
+ 
+  
   <p>
     <%= f.label :gross %><br />
     <%= f.text_field :gross %>
@@ -104,10 +81,7 @@
     <%= f.label :net %><br />
     <%= f.text_field :net %>
   </p>
-  <p>
-    <%= f.label :total_putts %><br />
-    <%= f.text_field :total_putts %>
-  </p>
+ 
   <p>
     <%= f.label :flight %><br />
     <%= f.text_field :flight %>
